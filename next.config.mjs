@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/Kenzoku_CompanySite',
+  basePath: process.env.NODE_ENV === 'production' ? '/Kenzoku_CompanySite' : '',
   typescript: {
     ignoreBuildErrors: true,
   },
