@@ -8,7 +8,7 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       {/* Header / Navigation */}
       <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center justify-between px-4 md:px-6">
+        <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-2">
             <Image 
               src="/logo.png" 
@@ -41,7 +41,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative py-20 md:py-32 overflow-hidden bg-gradient-to-b from-muted/30 to-background">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center gap-8">
             <div className="inline-flex items-center rounded-full border border-border bg-card px-4 py-1.5 text-sm text-muted-foreground">
               <Shield className="mr-2 h-4 w-4 text-primary" />
@@ -74,7 +74,7 @@ export default function Home() {
 
       {/* About Section */}
       <section id="about" className="py-20 md:py-32 bg-background">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <div className="space-y-4">
@@ -222,7 +222,7 @@ export default function Home() {
 
       {/* Services Section */}
       <section id="services" className="py-20 md:py-32 bg-muted/30">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center gap-4 mb-16">
             <div className="inline-block">
               <span className="text-sm font-semibold text-accent uppercase tracking-wider">Our Services</span>
@@ -367,7 +367,7 @@ export default function Home() {
 
       {/* Expertise Section */}
       <section id="expertise" className="py-20 md:py-32 bg-background">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center gap-4 mb-16">
             <div className="inline-block">
               <span className="text-sm font-semibold text-accent uppercase tracking-wider">Why Choose Us</span>
@@ -446,7 +446,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section id="contact" className="py-20 md:py-32 bg-primary text-primary-foreground">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center text-center gap-8 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold text-balance">
               お気軽にお問い合わせください
@@ -468,7 +468,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-12 bg-muted/30 border-t border-border">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             <div className="space-y-4">
               <Image 
