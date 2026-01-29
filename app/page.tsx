@@ -10,10 +10,10 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-2">
-            <Image 
-              src="/logo.png" 
-              alt="Kenzoku System Development" 
-              width={180}
+            <Image
+              src="/logo.png"
+              alt="Kenzoku System Development"
+              width={60}
               height={60}
               className="h-12 w-auto"
               priority
@@ -471,11 +471,11 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             <div className="space-y-4">
-              <Image 
-                src="/logo.png" 
-                alt="Kenzoku System Development" 
-                width={160}
-                height={53}
+              <Image
+                src="/logo.png"
+                alt="Kenzoku System Development"
+                width={50}
+                height={50}
                 className="h-10 w-auto"
               />
               <p className="text-sm text-muted-foreground leading-relaxed">
