@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Code, Globe, TrendingUp, Shield, Users, Award } from "lucide-react";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/Kenzoku_CompanySite' : '';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
@@ -10,7 +12,7 @@ export default function Home() {
         <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-2">
             <img
-              src="/logo.jpg"
+              src={`${basePath}/logo.jpg`}
               alt="Kenzoku System Development"
               className="h-12 w-auto"
             />
@@ -468,7 +470,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
             <div className="space-y-4">
               <img
-                src="/logo.jpg"
+                src={`${basePath}/logo.jpg`}
                 alt="Kenzoku System Development"
                 className="h-10 w-auto"
               />

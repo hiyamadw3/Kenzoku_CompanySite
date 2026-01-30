@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: process.env.NODE_ENV === 'production' ? '/Kenzoku_CompanySite' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Kenzoku_CompanySite' : '',
   typescript: {
     ignoreBuildErrors: true,
   },
